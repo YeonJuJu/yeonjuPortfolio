@@ -50,9 +50,9 @@ table{border-collapse: collapse;}
 
 .top_div > div {width:100%; height:50%;}
 .top_div > div:first-child {}
-.top_div > div:nth-last-of-type(1) {background-color:#FFFFFF; border-radius:2em; box-shadow:1px 1px #ced0d6;}
+.top_div > div:nth-last-of-type(1) {background-color:#FFFFFF; border-radius:4em; box-shadow:1px 1px #ced0d6;}
 
-.top_logo {width:480px; margin-top:8px;}
+.top_logo {width:450px; margin-top:16px;}
 
 .top_btn_div {float:right;}
 
