@@ -22,7 +22,14 @@
 			<div class="top_div">
 				<!-- top_div 상단 -->
 				<div>
-					
+					<img class="top_logo" src="resources/images/top/yeonjuLogo2.png" onclick="" alt="유연주 포트폴리오">
+					<div class="top_btn_div">
+						<ul class="top_list">
+							<li onclick=""><img src="resources/images/top_li_icon01.png" alt="관리자"><p>관리자</p></li>
+							<li onclick=""><img src="resources/images/top_li_icon02.png" alt="나의정보"><p>나의정보</p></li>
+							<li onclick=""><img src="resources/images/top_li_icon03.png" alt="로그아웃"><p>로그아웃</p></li>
+						</ul>
+					</div>
 				</div>
 				
 				<!-- top_div 하단 -->
