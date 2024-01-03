@@ -22,7 +22,7 @@
 			<div class="top_div">
 				<!-- top_div 상단 -->
 				<div>
-					<img class="top_logo" src="resources/images/top/yeonjuLogo2.png" onclick="" alt="유연주 포트폴리오">
+					<!-- <img class="top_logo" src="resources/images/top/yeonjuLogo2.png" onclick="" alt=""> -->
 					<div class="top_btn_div">
 						<ul class="top_list">
 							<li onclick=""><img src="resources/images/top_li_icon01.png" alt="관리자"><p>관리자</p></li>
@@ -40,14 +40,31 @@
 		</div>
 		<div class="content_item2">
 			<div class="my_info_div">
-				<!-- about me
-						이름
-						생년월일
-						주소지
-						연락처
-						이메일
-						학력
-				 -->
+			
+				<!-- my_info_div 상단 -->
+				<div class="my_info_top_div">
+					<img src="resources/images/div_top/about_me.png"/>
+				</div>
+				
+				<!-- my_info_div 하단 -->
+				<div class="my_info_bottom_div">
+					<!-- my_info_div 좌측 -->
+					<div>
+						<div class="my_info_img_div"><img src="resources/images/user/user.png"/></div>
+					</div>
+	
+					<!-- my_info_div 우측 -->
+					<div>
+						<div class="my_info_text_div">
+							<p><span class="my_info_text_attr_span">이름</span><span class="my_info_text_val_span">유연주</span></p>
+							<p><span class="my_info_text_attr_span">생년월일</span><span class="my_info_text_val_span">1998.04.06</span></p>
+							<p><span class="my_info_text_attr_span">주소지</span><span class="my_info_text_val_span">서울시 성북구</span></p>
+							<p><span class="my_info_text_attr_span">연락처</span><span class="my_info_text_val_span">010-8138-2449</span></p>
+							<p><span class="my_info_text_attr_span">이메일</span><span class="my_info_text_val_span">uplay_98@naver.com</span></p>
+							<p><span class="my_info_text_attr_span">학교/전공</span><span class="my_info_text_val_span">상명대학교/컴퓨터과학과</span></p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="content_item3">

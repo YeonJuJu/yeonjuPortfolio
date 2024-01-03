@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+	font-family: 'hansans';
+	src:url('../fonts/BlackHanSans-Regular.ttf');
+}
+
 /*공통속성*/
 *{margin:0; padding:0;}
 body{font-size:9pt; font-family:'나눔고딕','Nanum Gothic','맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,AppleGothic,sans-serif; color:#3D3D3D;}
@@ -29,7 +34,7 @@ table{border-collapse: collapse;}
 /* 공통 css end */
 
 /* grid 관련 css start */
-#content {clear:both; width: 100%; height:100%; position:absolute; background-color:#F5F8FF; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
+#content {clear:both; width: 100%; height:100%; position:absolute; background-color:#EFF2F8; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;}
 
 .content_box {display:grid; grid-template-columns: repeat(6, 1fr); /* grid-template-rows: repeat(10, 1fr); */ grid-template-rows:1.5fr 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; gap:5px; width:94%; height:100%; margin-left:3%;}
 .content_box > div {width:100%; height:100%; display:inline-block; }
@@ -61,7 +66,27 @@ table{border-collapse: collapse;}
 .top_list p {font-size: 14px; font-weight:600; color:#4c4f53; margin-top:2px;}
 /* top_menu_div 관련 css end */
 
+/* my_info_div 관련 css start */
+.my_info_div > div {width:100%;}
+.my_info_div > div:first-child {height:14%;}
+.my_info_div > div:nth-last-of-type(1) {height:86%;}
 
+.my_info_top_div > img {width:70%; margin-left:15%;}
+
+.my_info_bottom_div > div {height:100%; float:left;}
+.my_info_bottom_div > div:first-child {width:40%;}
+.my_info_bottom_div > div:nth-last-of-type(1) {width:60%;}
+
+.my_info_img_div {width:60%; height:60%; margin-top:15%; margin-left:20%;}
+.my_info_img_div img {width:90%;}
+
+.my_info_text_div {width:100%; height:80%; margin-top:10%;}
+.my_info_text_div > p {width:100%; font-size:12pt; line-height:30px;}
+.my_info_text_div > p > span {display:inline-block; font-family:'hansans';}
+
+.my_info_text_attr_span {width:30%; color:#6A75CA;}
+.my_info_text_val_span {width:70%;}
+/* my_info_div 관련 css end */
 
 
 
