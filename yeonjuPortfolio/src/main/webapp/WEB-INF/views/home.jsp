@@ -7,9 +7,15 @@
 	<title>유연주</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
 	<!-- <script type="text/javascript" src="resources/script/common.js"></script> -->
-	<script type="text/javascript" language="javascript">
-
-			
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function openModal(){
+			$("#test_modal").fadeIn();
+		}
+		
+		function closeModal(){
+			$("#test_modal").fadeOut();
+		}
 	</script>
 </head>
 
@@ -94,7 +100,9 @@
 		</div>
 		<div class="content_item8">
 			<div class="bottom_div">
-				<div></div>
+				<div>
+					<button onclick="openModal();">모달모달</button>
+				</div>
 				<div>
 					<!-- Copyright -->
 				</div>
@@ -103,6 +111,14 @@
 	</div>
 </div>
 <!-- MAIN END -->
+
+<div id="test_modal" class="modal_div">
+	<div class="modal_body_div">
+		<button onclick="closeModal();">X</button>
+		<h2>모달 제목</h2>
+		<p>모달 내용</p>
+	</div>
+</div>
 
 </body>
 </html>

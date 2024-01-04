@@ -98,3 +98,8 @@ table{border-collapse: collapse;}
 .bottom_div > div:first-child {height:70%; background-color:#FFFFFF; border-radius:2em; box-shadow:1px 1px #ced0d6;}
 .bottom_div > div:nth-last-of-type(1) {height:30%;}
 /* bottom_div 관련 css end */
+
+/* modal_div 관련 css start */
+.modal_div {display:none; width:100%; height:100%; position:absolute; top:0; left:0; justify-content:center; background-color:rgba(0,0,0,0.4);}
+.modal_body_div {position:absolute; top:50%; left:50%; width:400px; height:600px; padding:40px; text-align:center; background-color:#ffffff; border-radius:10px; box-shadow:0 2px 3px 0 rgba(34, 36, 38, 0.15); transform:translate(-50%, -50%);}
+/* modal_div 관련 css end */
