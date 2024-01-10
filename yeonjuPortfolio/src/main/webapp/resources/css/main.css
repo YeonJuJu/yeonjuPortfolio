@@ -88,7 +88,23 @@ table{border-collapse: collapse;}
 .my_info_text_val_span {width:70%;}
 /* my_info_div 관련 css end */
 
+/* skills_div 관련 css start */
+.skills_div > div {width:100%;}
+.skills_div > div:first-child {height:14%; text-align:center;}
+.skills_div > div:nth-last-of-type(1) {height:86%;}
 
+.skills_bottom_div > div {width:100%; height:50%;}
+.skills_bottom_div > div > div {width:50%; height:100%; float:left;}
+
+.front_skills_div {background-color:#ebeff7; border-top-left-radius:2em;}
+.back_skills_div {border-top-right-radius:2em;}
+.db_skills_div {border-bottom-left-radius:2em;}
+.framework_etc_skills_div {background-color:#ebeff7; border-bottom-right-radius:2em;}
+.framework_etc_skills_div > div {width:50%; height:100%; float:left;}
+
+.skill_logo_div {width:100%; height:10%; text-align:center;}
+
+/* skills_div 관련 css end */
 
 
 /* bottom_div 관련 css start */

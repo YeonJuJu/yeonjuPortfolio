@@ -46,7 +46,6 @@
 		</div>
 		<div class="content_item2">
 			<div class="my_info_div">
-			
 				<!-- my_info_div 상단 -->
 				<div class="my_info_top_div">
 					<img src="resources/images/div_top/about_me.png"/>
@@ -84,8 +83,47 @@
 			</div>
 		</div>
 		<div class="content_item5">
-			<div class="employee_search_div">
+			<div class="skills_div">
+				<!-- skills_div 상단 -->
+				<div class="skills_top_div">
+					<img src="resources/images/div_top/skills.png"/>
+				</div>
 				
+				<!-- skills_div 하단 -->
+				<div class="skills_bottom_div">
+					<div>
+						<div class="front_skills_div">
+							<div class="skill_logo_div">
+								<img src="resources/images/skill_logo/front-end.png"/>
+							</div>
+						
+						</div>
+						<div class="back_skills_div">
+							<div class="skill_logo_div">
+								<img src="resources/images/skill_logo/back-end.png"/>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="db_skills_div">
+							<div class="skill_logo_div">
+								<img src="resources/images/skill_logo/db.png"/>
+							</div>
+						</div>
+						<div class="framework_etc_skills_div">
+							<div class="framework_skills_div">
+								<div class="skill_logo_div">
+									<img src="resources/images/skill_logo/framework.png"/>
+								</div>
+							</div>
+							<div class="etc_skills_div">
+								<div class="skill_logo_div">
+									<img src="resources/images/skill_logo/etc.png"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="content_item6">
