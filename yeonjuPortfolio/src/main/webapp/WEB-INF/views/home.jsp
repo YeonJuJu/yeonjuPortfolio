@@ -28,7 +28,7 @@
 			<div class="top_div">
 				<!-- top_div 상단 -->
 				<div>
-					<!-- <img class="top_logo" src="resources/images/top/yeonjuLogo2.png" onclick="" alt=""> -->
+					<img class="top_logo" src="resources/images/top/yeonjuLogo2.png" onclick="" alt="">
 					<div class="top_btn_div">
 						<ul class="top_list">
 							<li onclick=""><img src="resources/images/top_li_icon01.png" alt="관리자"><p>관리자</p></li>
@@ -94,31 +94,50 @@
 					<div>
 						<div class="front_skills_div">
 							<div class="skill_logo_div">
-								<img src="resources/images/skill_logo/front-end.png"/>
+								<img src="resources/images/skill_logo/skill_header/front-end.png"/>
 							</div>
-						
+							<div class="skill_list_div front_end_skills">
+								<img src="resources/images/skill_logo/htmlCssJsLogo.png"/>
+								<img src="resources/images/skill_logo/jqueryLogo.png"/>								
+							</div>
 						</div>
 						<div class="back_skills_div">
 							<div class="skill_logo_div">
-								<img src="resources/images/skill_logo/back-end.png"/>
+								<img src="resources/images/skill_logo/skill_header/back-end.png"/>
+							</div>
+							<div class="skill_list_div back_end_skills">
+								<img src="resources/images/skill_logo/javaLogo.png"/>
+								<img src="resources/images/skill_logo/nodejsLogo.png"/>								
 							</div>
 						</div>
 					</div>
 					<div>
 						<div class="db_skills_div">
 							<div class="skill_logo_div">
-								<img src="resources/images/skill_logo/db.png"/>
+								<img src="resources/images/skill_logo/skill_header/db.png"/>
+							</div>
+							<div class="skill_list_div db_skills">
+								<img src="resources/images/skill_logo/oracleLogo.png"/>
+								<img src="resources/images/skill_logo/mysqlLogo.png"/>								
 							</div>
 						</div>
 						<div class="framework_etc_skills_div">
 							<div class="framework_skills_div">
 								<div class="skill_logo_div">
-									<img src="resources/images/skill_logo/framework.png"/>
+									<img src="resources/images/skill_logo/skill_header/framework.png"/>
+								</div>
+								<div class="skill_list_div framework_skills">
+									<img src="resources/images/skill_logo/springLogo.png"/>
+									<img src="resources/images/skill_logo/egovLogo.png"/>	
 								</div>
 							</div>
 							<div class="etc_skills_div">
 								<div class="skill_logo_div">
-									<img src="resources/images/skill_logo/etc.png"/>
+									<img src="resources/images/skill_logo/skill_header/etc.png"/>
+								</div>
+								<div class="skill_list_div etc_skills">
+									<img src="resources/images/skill_logo/gitLogo.png"/>
+									<img src="resources/images/skill_logo/svnLogo.png"/>	
 								</div>
 							</div>
 						</div>
