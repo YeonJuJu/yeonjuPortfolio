@@ -31,6 +31,10 @@ table{border-collapse: collapse;}
 .hiddenScrollbar {-ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */}
 .hiddenScrollbar::-webkit-scrollbar {display: none; /* Chrome, Safari, Opera*/}
 
+.button {cursor:pointer;}
+.moreBtn {float:right; width:30px; margin-top:10px; margin-right:24px;}
+.divSubject {width:100px; margin-left:54px;}
+
 /* 공통 css end */
 
 /* grid 관련 css start */
@@ -90,8 +94,10 @@ table{border-collapse: collapse;}
 
 /* skills_div 관련 css start */
 .skills_div > div {width:100%;}
-.skills_div > div:first-child {height:14%; text-align:center;}
-.skills_div > div:nth-last-of-type(1) {height:86%;}
+
+.skills_top_div {height:14%; text-align:center;}
+
+.skills_bottom_div {height:86%;}
 
 .skills_bottom_div > div {width:100%; height:50%;}
 .skills_bottom_div > div > div {width:50%; height:100%; float:left;}

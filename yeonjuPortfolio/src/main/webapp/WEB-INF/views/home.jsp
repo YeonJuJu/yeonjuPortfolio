@@ -84,9 +84,11 @@
 		</div>
 		<div class="content_item5">
 			<div class="skills_div">
+
 				<!-- skills_div 상단 -->
 				<div class="skills_top_div">
-					<img src="resources/images/div_top/skills.png"/>
+					<img class="divSubject" src="resources/images/div_top/skills.png"/>
+					<img class="moreBtn button" src="resources/images/div_top/moreBtn2.png"/>
 				</div>
 				
 				<!-- skills_div 하단 -->
